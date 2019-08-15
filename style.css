@@ -15,7 +15,7 @@ Released   : 20120805
 }
 
 a {
-	color: #EFF0EF;
+	color: #EFEFF0;
 	text-decoration: underline;
 }
 
@@ -26,8 +26,8 @@ a:hover {
 body {
 	font-size: 12.5pt;
 	line-height: 1.75em;
-	color: #EFF0EF;
-	background: #969E94;
+	color: #EFEFF0;
+	background: #384252;
 	text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
 }
 
@@ -48,7 +48,7 @@ h2 {
 }
 
 h2,h3,h4 {
-	color: #FFF;
+	color: #FFE3E3;
 	margin-bottom: 1em;
 	font-family: Abel, sans-serif;
 }
@@ -110,11 +110,11 @@ ul h4 {
 #footer {
 	padding: 0 0 95px 0;
 	text-align: center;
-	color: #CCD1CA;
+	color: #C8D3E6;
 }
 
 #footer a {
-	color: #CCD1CA;
+	color: #C8D3E6;
 }
 /************************************************/
 
@@ -159,13 +159,13 @@ ul h4 {
 }
 
 #menu a {
-	color: #EFF0EF;
+	color: #EFEFF0;
 	text-decoration: none;
 	font-size: 1.25em;
 }
 
 #menu a:hover {
-	color: #CCD1CA;
+	color: #C8D3E6;
 }
 
 #menu ul {
@@ -225,7 +225,7 @@ ul h4 {
 
 #page-bottom ul li {
 	padding: 10px 0 10px 0;
-	border-top: dotted 1px #A7AEA5;
+	border-top: dotted 1px #A7A5AE;
 }
 
 #page-bottom ul li.first {
@@ -270,7 +270,7 @@ ul h4 {
 
 #search input.form-text {
 	padding: 5px;
-	border: dotted 1px #A7AEA5;
+	border: dotted 1px #A7A5AE;
 }
 /************************************************/
 
@@ -286,7 +286,7 @@ ul h4 {
 }
 
 #sidebar ul li {
-	border-top: dotted 1px #A7AEA5;
+	border-top: dotted 1px #A7A5AE;
 	padding: 10px 0 10px 0;
 }
 
