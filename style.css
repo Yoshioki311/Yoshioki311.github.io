@@ -267,14 +267,15 @@ ul h4 {
 /********************* Col **********************/
 #col1 {
 	overflow: hidden;
-	width: 240px;
+	width: 50%;
 	float: left;
 }
 
 #col2 {
-	width: 240px;
+	width: 30%;
 	overflow: hidden;
-	margin: 0 0 0 275px;
+	/* margin: 0 0 0 275px; */
+	float: right;
 }
 /************************************************/
 
