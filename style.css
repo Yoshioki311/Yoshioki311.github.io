@@ -106,6 +106,26 @@ ul h4 {
 }
 /************************************************/
 
+/**************** Content Wide ******************/
+#content-wide {
+	padding: 35px;
+	background: #FFF;
+	float: left;
+	color: #262626;
+	width: 88%;
+	box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.1);
+	text-shadow: none;
+}
+
+#content-wide a {
+	color: #262626;
+}
+
+#content-wide h2, #content h3, #content h4 {
+	color: #0F0F0F;
+}
+/************************************************/
+
 /******************** Footer ********************/
 #footer {
 	padding: 0 0 95px 0;
@@ -301,6 +321,41 @@ ul h4 {
 	padding: 13px 15px 10px 15px;
 	position: relative;
 	left: -15px;
+}
+/************************************************/
+
+/******************** Skill *********************/
+#skill {
+	color: #FFF;
+}
+
+#skill a {
+	text-decoration: none;
+}
+
+#skill p {
+	color: #262626;
+	text-decoration: none;
+	margin-bottom: 0.5em;
+	/* border-bottom: dotted 1px #D555FC; */
+}
+
+#skill ul {
+	list-style: none;
+}
+
+#skill ul li {
+	margin: 4px;
+	padding: 6px 12px;
+	line-height: 1.42857;
+	font-weight: 550;
+	font-size: 0.9em;
+	display: inline-flex;
+	align-items: center;
+	border-radius: 30px;
+	box-sizing: border-box;
+	background-color: #384252;
+	border-top: none;
 }
 /************************************************/
 
