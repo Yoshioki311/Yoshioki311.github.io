@@ -70,6 +70,12 @@ img.aligntop {
 	margin: 5px 0 20px 0;
 }
 
+img.aligncenter {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 p {
 	margin-bottom: 1.5em;
 }
@@ -80,6 +86,13 @@ ul {
 
 ul h4 {
 	margin-bottom: 0.35em;
+}
+
+hr {
+	margin: auto;
+	border-top: 3px solid #384252;
+	border-bottom: none;
+	width: 50%;
 }
 
 .box {
@@ -374,6 +387,34 @@ ul h4 {
 	box-sizing: border-box;
 	background-color: #384252;
 	border-top: none;
+}
+/************************************************/
+
+/******************* Contact ********************/
+#contact {
+	overflow: hidden;
+	float: left;
+}
+
+#contact a {
+	text-decoration: none;
+}
+
+#contact img {
+	float: none;
+	width: 7%;
+	margin: auto;
+	padding: 5%;
+}
+
+#contact img.first {
+	float: none;
+    margin-left: 50px;
+}
+
+#contact img.last {
+	float: none;
+    margin-right: 50px;
 }
 /************************************************/
 
