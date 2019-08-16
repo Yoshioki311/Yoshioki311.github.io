@@ -121,7 +121,24 @@ ul h4 {
 	color: #262626;
 }
 
-#content-wide h2, #content h3, #content h4 {
+#content-wide button {
+	color: #FFF;
+	padding: 6px 12px;
+	font-size: 0.9em;
+	display: inline-flex;
+	align-items: center;
+	border-radius: 30px;
+	box-sizing: border-box;
+	background-color: #384252;
+}
+
+#content-wide button:hover {
+	color: #384252;
+	background-color: #C8D3E6;
+	cursor: pointer;
+}
+
+#content-wide h2, #content-wide h3, #content-wide h4 {
 	color: #0F0F0F;
 }
 /************************************************/
