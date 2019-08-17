@@ -151,6 +151,30 @@ hr {
 	cursor: pointer;
 }
 
+#content-wide button.collapsible {
+	text-decoration: underline;
+	color: #0F0F0F;
+	background-color: #FFF;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 1.5em;
+	font-family: Abel, sans-serif;
+}
+
+#content-wide button:hover.collapsible {
+	text-decoration: none;
+	color: #0F0F0F;
+	cursor: pointer;
+}
+
+#content-wide .collapse-content {
+	padding: 0 15px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+  }
+
 #content-wide h2, #content-wide h3, #content-wide h4 {
 	color: #0F0F0F;
 }
