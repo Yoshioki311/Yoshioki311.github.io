@@ -105,7 +105,7 @@ hr {
 	background: #FFF;
 	float: left;
 	color: #262626;
-	width: 515px;
+	width: 53%;
 	box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.1);
 	text-shadow: none;
 }
@@ -217,15 +217,36 @@ hr {
 	font-family: Abel, sans-serif;
 	font-weight: bold;
 }
+
+@media screen and (max-width: 1220px) {
+	#header {
+		width: 100%;
+		height: 180px;
+	}
+}
+
+@media screen and (max-width: 730px) {
+	#header {
+		width: 100%;
+		height: 450px;	
+	}
+}
+
+@media screen and (max-width: 335px) {
+	#header {
+		width: 100%;
+		height: 590px;	
+	}
+}
 /************************************************/
 
 /********************* Menu *********************/
 #menu {
-	top: 66px;
+	top: 37px;
 	line-height: 64px;
-	right: 35px;
+	float: right;
 	height: 64px;
-	position: absolute;
+	position: relative;
 	padding: 0 15px 0 15px;
 	font-family: Abel, sans-serif;
 	background: rgba(0,0,0,0.05);
@@ -251,13 +272,39 @@ hr {
 	display: inline;
 	padding: 0 10px 0 10px;
 }
+
+@media screen and (max-width: 1220px) {
+	#menu {
+		width: 100%;
+		float:right;
+		position: relative;
+		top: 120px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 730px) {
+	#menu {
+		height: 330px;
+	}
+
+	#menu ul li {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 335px) {
+	#menu {
+		top: 240px;
+	}
+}
 /************************************************/
 
 /********************* Page *********************/
 #page {
 	margin: 25px 0 0 0;
 	padding: 0;
-	width: 980px;
+	width: 100%;
 	position: relative;
 }
 
@@ -303,9 +350,9 @@ hr {
 
 /******************* Side Bar *******************/
 #sidebar {
-	width: 300px;
+	width: 30%;
 	padding: 0 35px 0 35px;
-	margin: 0 0 0 610px;
+	margin: 0 0 0 65%;
 }
 
 #sidebar ul {
@@ -328,6 +375,12 @@ hr {
 	padding: 13px 15px 10px 15px;
 	position: relative;
 	left: -15px;
+}
+
+@media screen and (max-width: 730px) {
+	#sidebar {
+		margin: 0 0 0 70%;
+	}
 }
 /************************************************/
 
@@ -397,5 +450,5 @@ hr {
 #wrapper {
 	position: relative;
 	margin: 0 auto 0 auto;
-	width: 980px;
+	width: 70%;
 }
