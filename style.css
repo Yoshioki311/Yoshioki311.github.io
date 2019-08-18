@@ -125,7 +125,7 @@ hr {
 	background: #FFF;
 	float: left;
 	color: #262626;
-	width: 88%;
+	width: 93%;
 	box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.1);
 	text-shadow: none;
 }
@@ -433,7 +433,7 @@ hr {
 
 #contact img.first {
 	float: none;
-    margin-left: 50px;
+    margin-left: 33%;
 }
 
 #contact img.last {
