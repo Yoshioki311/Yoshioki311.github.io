@@ -286,38 +286,6 @@ hr {
 }
 /************************************************/
 
-/***************** Page Bottom ******************/
-#page-bottom {
-	position: relative;
-	width: 910px;
-	padding: 50px 35px 20px 35px;
-}
-
-#page-bottom ul {
-	list-style: none;
-}
-
-#page-bottom ul li {
-	padding: 10px 0 10px 0;
-	border-top: dotted 1px #A7A5AE;
-}
-
-#page-bottom ul li.first {
-	padding-top: 0;
-	border-top: 0;
-}
-
-#page-bottom-content {
-	width: 515px;
-	float: left;
-}
-
-#page-bottom-sidebar {
-	width: 300px;
-	margin: 0 0 0 610px;
-}
-/************************************************/
-
 /********************* Col **********************/
 #col1 {
 	overflow: hidden;
@@ -330,22 +298,6 @@ hr {
 	overflow: hidden;
 	/* margin: 0 0 0 275px; */
 	float: right;
-}
-/************************************************/
-
-/******************** Search ********************/
-#search input.form-submit {
-	padding: 5px;
-	background: #D555FC;
-	border: 0;
-	font-family: Abel, sans-serif;
-	margin-left: 1em;
-	color: #000;
-}
-
-#search input.form-text {
-	padding: 5px;
-	border: dotted 1px #A7A5AE;
 }
 /************************************************/
 
