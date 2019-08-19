@@ -8,8 +8,8 @@ Description: A two-column, fixed-width design with dark color scheme.
 Version    : 1.0
 Released   : 20120805
 */
-@import url(//fonts.googleapis.com/css?family=Abel);
-@import url(//fonts.googleapis.com/css?family=Ubuntu);
+@import url("//fonts.googleapis.com/css?family=Abel");
+@import url("//fonts.googleapis.com/css?family=Ubuntu");
 
 * {
 	padding: 0;
