@@ -46,14 +46,16 @@ Released   : 20120805
 						</h2>
 						<h4>Overview</h4>
 						<p>
-							Build a very large hardware multiplier, with input size of 2048 bits. The 
-							reason why this	multiplier is needed remains a mystery.
+							Build hardware large integer multiplier, with input size of 2048 bits, for 
+							cryptographic applications.
 						</p>
 						<h4>Description</h4>
 						<p>
 							For this research, most of the designs are implemented in systemVerilog. This
 							is my first time writing systemVerilog, and it was not so bad as the syntax is similar
-							to Verilog on which I had lots of experience. Besides the design files, I familiarized 
+							to Verilog on which I had lots of experience. I started with some common implementations of
+							hardware multipliers such as a Wallace Tree multiplier and Karatsuba multiplier, and worked my
+							way up to design a large integer hardware multiplier. Besides the design files, I familiarized 
 							myself with wrting testbenches so that I can verify the correctness of my design on ModelSim.
 							The research project also gave me a chance to practice my Python skills as I needed to write 
 							software model for my hardware design of the multipliers. 
